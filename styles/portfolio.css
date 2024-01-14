@@ -213,6 +213,7 @@ textarea {
     border-radius: 5px;
     background-color: #FFF;
     border: 0;
+    width: 80%;
 }
 /* Responsive styles */
 .hide{
