@@ -215,24 +215,9 @@ textarea {
     border: 0;
     width: 80%;
 }
-/* Responsive styles */
-.hide{
-    display: none;
-}
-/* mobile devices */
-@media screen and (max-width: 576px) {
-    .skills-container{
-        flex-direction: column;
-    }
-    #what-i-do-description{
-        padding: 20px;
-    }
-}
+
 
 /* Responsive styles */
-.hide {
-    display: none;
-}
 
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -254,6 +239,9 @@ textarea {
     .footer-column {
         width: 100%;
     }
+    .header{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -264,5 +252,8 @@ textarea {
 
     footer {
         padding: 30px;
+    }
+    .header{
+        display: none;
     }
 }
